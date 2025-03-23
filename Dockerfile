@@ -1,4 +1,4 @@
-# Utiliser une image de base
+# Utiliser une image de base Node.js
 FROM node:14
 
 # Définir le répertoire de travail

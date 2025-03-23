@@ -100,8 +100,31 @@ Ce projet utilise GitHub Actions pour automatiser la construction et le push de 
 3. Créez deux secrets :
    - `DOCKER_USERNAME` : Votre nom d'utilisateur DockerHub
    - `DOCKER_PASSWORD` : Votre mot de passe DockerHub
-   
+  
+   - Cliquez sur **Secrets and variables** puis sur **Actions**.
+   - Ajoutez les secrets nécessaires, comme `DOCKER_USERNAME` et `DOCKER_PASSWORD`.
 
+
+  1. **Ajouter tous les fichiers à l'index Git** :
+   
+   git add .
+
+  2. **Effectuer un commit avec un message**
+  
+         git commit -m "Add CI/CD pipeline "
+
+  3. **Ajouter le dépôt distant**
+
+      git remote add origin https://github.com/Mouaz30/examen_devops.git
+
+  4. **Pousser les changements vers la branche principale**   
+
+     git push origin main
+     
+
+
+  
+   
    
 
 
