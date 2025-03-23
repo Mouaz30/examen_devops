@@ -15,7 +15,7 @@ jobs:
       - name: Log in to DockerHub
         uses: docker/login-action@v2  
         with:
-          username: ${{ secrets.USER }}
+          username: ${{ secrets.NAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           
       - name: Set up QEMU
